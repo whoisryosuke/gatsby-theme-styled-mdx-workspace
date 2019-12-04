@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-theme-styled-mdx-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "yarn workspace gatsby-theme-styled-mdx-example develop",
+    "build": "yarn workspace gatsby-theme-styled-mdx-example build"
+  },
+  "workspaces": [
+    "gatsby-theme-styled-mdx",
+    "gatsby-theme-styled-mdx-example"
+  ]
+}
